@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resaltador de sintaxis de Python</title>
+    <link href="estilo.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta content="width= device-width, initial-scale= 1" name="viewport">
+  </head>
+  <body>
+    <body class="estilo"></body>
+    <div class="estilo">
+      <span class="comentarios"># include &lt;stdio.h&gt;</span>
+    </div>
+    <div class="estilo">
+      <span class="comentarios"># include &lt;conio.h&gt;</span>
+    </div>
+    <div class="estilo">
+      <span class="palabrasReservadas">int</span>
+      <span class="variables">ma,</span>
+      <span>mb,</span>
+      <span>mc;</span>
+    </div>
+    <div class="estilo">
+      <span>float</span>
+      <span>m2p,</span>
+      <span>flo,</span>
+      <span>cto,</span>
+      <span>vta,</span>
+      <span>ut;</span>
+    </div>
+    <div class="estilo">
+      <span>main(){</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;Indica</span>
+      <span>la</span>
+      <span>cantidad</span>
+      <span>de</span>
+      <span>tinacos</span>
+      <span class="palabrasReservadas">del</span>
+      <span class="variables">modelo</span>
+      <span>A</span>
+      <span>:</span>
+      <span class="strings">&quot;);</span>
+      <span class="strings">scanf(&quot;%d&quot;,&amp;ma);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;Indica</span>
+      <span>la</span>
+      <span>cantidad</span>
+      <span>de</span>
+      <span>tinacos</span>
+      <span class="palabrasReservadas">del</span>
+      <span class="variables">modelo</span>
+      <span>B</span>
+      <span>:</span>
+      <span class="strings">&quot;);</span>
+      <span class="strings">scanf(&quot;%d&quot;,&amp;mb);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;Indica</span>
+      <span>la</span>
+      <span>cantidad</span>
+      <span>de</span>
+      <span>tinacos</span>
+      <span class="palabrasReservadas">del</span>
+      <span class="variables">modelo</span>
+      <span>C</span>
+      <span>:</span>
+      <span class="strings">&quot;);</span>
+      <span class="strings">scanf(&quot;%d&quot;,&amp;mc);</span>
+    </div>
+    <div class="estilo">
+      <span>m2p=(ma*10)+(mb*15)+(mc*20);</span>
+    </div>
+    <div class="estilo">
+      <span>flo=ma+mb+mc;</span>
+    </div>
+    <div class="estilo">
+      <span>cto=(m2p*50)+(flo*20)+(ma*25)+(mb*35)+(mc*45);</span>
+    </div>
+    <div class="estilo">
+      <span>vta=(ma*760)+(mb*1130)+(mc*1490);</span>
+    </div>
+    <div class="estilo">
+      <span>ut=vta-cto;</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;****************************************************\n&quot;);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;Se</span>
+      <span class="variables">requieren</span>
+      <span class="operadores">%8.2f</span>
+      <span>metros</span>
+      <span>cuadrados</span>
+      <span>de</span>
+      <span class="strings">pl%cstico\n&quot;,m2p,160);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;Se</span>
+      <span class="variables">requieren</span>
+      <span class="operadores">%8.2f</span>
+      <span class="strings">flotadores\n&quot;,flo);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;Se</span>
+      <span class="variables">requieren</span>
+      <span class="operadores">%8d</span>
+      <span>tapas</span>
+      <span>de</span>
+      <span class="enteros">1.0</span>
+      <span class="strings">metro\n&quot;,ma);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;Se</span>
+      <span class="variables">requieren</span>
+      <span class="operadores">%8d</span>
+      <span>tapas</span>
+      <span>de</span>
+      <span class="enteros">1.5</span>
+      <span class="strings">metros\n&quot;,mb);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;Se</span>
+      <span class="variables">requieren</span>
+      <span class="operadores">%8d</span>
+      <span>tapas</span>
+      <span>de</span>
+      <span class="enteros">2.0</span>
+      <span class="strings">metros\n&quot;,mc);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;****************************************************\n&quot;);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;El</span>
+      <span>costo</span>
+      <span>total</span>
+      <span class="palabrasReservadas">del</span>
+      <span class="variables">material</span>
+      <span>es</span>
+      <span>:</span>
+      <span>$</span>
+      <span class="operadores">%8.2f</span>
+      <span class="strings">pesos\n&quot;,cto);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;La</span>
+      <span>venta</span>
+      <span>total</span>
+      <span class="palabrasReservadas">del</span>
+      <span class="variables">pedido</span>
+      <span>es</span>
+      <span>:</span>
+      <span>$</span>
+      <span class="operadores">%8.2f</span>
+      <span class="strings">pesos\n&quot;,vta);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;****************************************************\n&quot;);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;La</span>
+      <span>utilidad</span>
+      <span>total</span>
+      <span class="palabrasReservadas">del</span>
+      <span class="variables">pedido</span>
+      <span>es</span>
+      <span>:</span>
+      <span>$</span>
+      <span class="operadores">%8.2f</span>
+      <span class="strings">pesos\n&quot;,ut);</span>
+    </div>
+    <div class="estilo">
+      <span class="strings">printf(&quot;****************************************************\n&quot;);</span>
+    </div>
+    <div class="estilo">
+      <span>getche();</span>
+    </div>
+    <div class="estilo">
+      <span>}</span>
+    </div>
+  </body>
+</html>
