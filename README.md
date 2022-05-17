@@ -1,0 +1,1 @@
+# Resaltador-de-Lexico-TC2037.1
